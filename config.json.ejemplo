@@ -1,0 +1,14 @@
+{
+  "_comentario": "Archivo de configuración para descarga de comprobantes SEMS",
+  "_instrucciones": "Copia este archivo a 'config.json' y edita con tus datos reales",
+  "rfc": "TU_RFC_AQUI",
+  "password": "TU_CONTRASEÑA_AQUI",
+  "anio_inicio": 2024,
+  "anio_final": 2024,
+  "quincena_inicio": 1,
+  "quincena_final": null,
+  "_nota_anio_inicio": "Año desde el cual iniciar la descarga (2024, 2025, etc.)",
+  "_nota_anio_final": "Año hasta el cual descargar (2024, 2026, etc.), null = mismo que anio_inicio",
+  "_nota_quincena_inicio": "Quincena desde la cual iniciar la descarga (1-24)",
+  "_nota_quincena_final": "Quincena hasta la cual descargar (1-24), null = quincena actual"
+}
